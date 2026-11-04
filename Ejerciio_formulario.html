@@ -1,0 +1,76 @@
+<!--
+Autor: Emmanuel Martínez
+Fecha: 04/oct/2026
+Descripcion: Práctica básica de HTML con formularios
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela de código</title>
+</head>
+<body>
+
+    <header>
+        <h1>Escuela de código</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Sobre nosotros</a></li>
+            <li><a href="">Proyectos</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Sobre nosotros</h2>
+        <h3>Biografía</h3>
+        <p>Escuela de Código es un programa de aprendizaje diseñado por profesionales de la Agencia Digital de Innovación Pública de Gobierno de la Ciudad de México.</p>
+        <h3>Intereses</h3>
+            <ul>
+                <li>Tecnología</li>
+                <li>Educación</li>
+                <li>Inclusión digital</li>
+            </ul>
+        <h3>Contacto</h3>
+        
+        <form action="">
+
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" name="nombre" id="nombre"> <br>
+
+            <label for="correo">Correo electronico:</label><br>
+            <input type="text" name="correo" id="correo"> <br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea name="mensaje" id="mensaje"></textarea><br>
+
+            <span>Genero:</span>
+            <input type="radio" name="Genero" id="Genero">
+            <label for="Genero">Masculino</label>
+            <input type="radio" name="Genero" id="Genero">
+            <label for="Genero">Femenino</label>
+            <input type="radio" name="Genero" id="Genero">
+            <label for="Genero">Otro</label> <br>
+
+            <input type="checkbox" name="tyc" id="tyc">
+            <label for="tyc">Acepto los términos y condiciones</label><br>
+
+            <input type="button" value="Enviar">
+
+        </form>
+
+        <h3>Conoce más de la ADIP</h3>
+        <a href="https://adip.cdmx.gob.mx/" target="_blank"><img src="https://adip.cdmx.gob.mx/themes/base/assets/images/logos/Logo_Generico_F.png" alt="Logo de la CDMX" width="300"></a>
+    </main>
+
+    <footer>
+        <p>Diseñado por <b>Agencia de Innovación Pública | Escuela de Código ADIP - 2025</b></p>
+    </footer>
+
+</body>
+
+</html>
