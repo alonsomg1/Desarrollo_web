@@ -1,0 +1,46 @@
+/* 
+    Autor Emmanuel Martínez
+    Fecha: 09/nov/2026
+    Descripación: Estilos para el proyecto de HTML
+*/
+/* Estilos generales para toda la página*/
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+/* Estilos del encabezado*/
+    header{
+        background-color: #023059; 
+    }
+    header h1{
+        color: white;
+        text-align: center;
+    }
+/* Estilos del nav*/
+    nav{
+        background-color: #E0E0E0;
+    }
+    nav a{
+        text-decoration: none;
+        color: #023059;
+        font-weight: bold;
+    }
+    nav ul{
+        list-style-type: none;
+    }
+/* Estilos del main*/
+    main h2, main h3{
+            color: #023059;
+        }
+    .Boton{
+        background-color: #023059;
+        color: white;
+    }
+/* Estilos del footer*/
+    footer{
+        background-color: #023059;
+        
+    }
+    footer p{
+        color: white;
+        text-align: center;
+    }
