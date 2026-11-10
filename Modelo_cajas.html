@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caja</title>
+    <style>
+        div{
+            display: inline-block;
+            text-align: center;
+            
+            height: 100px;
+            width: 100px;
+/*
+            border-style:solid;
+            border-color: black;
+            border-width: 5px;
+        Puedes resumir las 3 propiedades en una  
+*/
+            border: solid black 5px;
+/*
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 100px;
+            margin-left: 100px;
+
+        Puedes resumir estas propiedades en una sola
+
+            margin: 500px;                    Aplica a los 4 lados
+            margin: 10px 100px;               el primero arriba y abajo, el segundo a los lados
+            margin: 30px 10px 100px;          El primero arriba, el segundo a los lados y el tercero abajo
+            margin: 10px 0px 100px 300px;     Como las manecillas del reloj (arriba, derecha, abajo, izquierda)
+
+            margin: 50px auto;                EL mejor margen para controlar horizontalmente
+*/
+            margin: 30px;
+            padding: 50px;
+        }
+
+        .caja1{
+            background-color: red;
+            height: 50px;
+            width: 200px;
+        }
+        .caja2{
+            background-color: darkblue;
+            color: white;
+        }
+        .caja3{
+            background-color: green;
+            border-radius: 20%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="caja1">Ornitorrinco</div>
+    <div class="caja2">Pato</div>
+    <div class="caja3">Cisne</div>
+
+</body>
+</html>

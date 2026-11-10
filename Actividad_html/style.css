@@ -9,11 +9,13 @@
     }
 /* Estilos del encabezado*/
     header{
-        background-color: #023059; 
+        background-color: #023059;
+        padding: 30px;
     }
     header h1{
         color: white;
         text-align: center;
+        margin: 0;
     }
 /* Estilos del nav*/
     nav{
@@ -26,18 +28,34 @@
     }
     nav ul{
         list-style-type: none;
+        margin: 0;
     }
 /* Estilos del main*/
     main h2, main h3{
             color: #023059;
         }
+    
+
+/*Estilos del formuario*/
+    main form input{
+        margin: 5px 0px 15px;
+    }
+    main form textarea{
+        margin: 5px 0px 15px;
+    }
     .Boton{
         background-color: #023059;
         color: white;
+        padding: 15px;
+        border-radius: 20%;
+        border: none;
+
     }
+
 /* Estilos del footer*/
     footer{
         background-color: #023059;
+        padding: 10px;
         
     }
     footer p{
