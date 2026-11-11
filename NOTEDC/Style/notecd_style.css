@@ -1,0 +1,56 @@
+/* 
+Autor: Emmanuel Martínez
+Fecha: 10/oct/2026
+Descripción: estilo CSS para el proyecto completo de notas
+*/
+/*Estilo del header*/
+    header{
+        background-color: #2176ff;
+        padding: 5px;
+        text-align: center;
+        margin: 0;
+    }
+    header h1{
+        font: georgia, serif;
+        color: white;
+        border: 0px;
+        margin: 0;
+    }
+    header h2{
+        font-family:"Shadows into light", cursive;
+        border: 0px;
+        margin: 0;
+    }
+/*Estilos específicos*/
+    #home_vscode{
+        background-color:#e3b505;
+        padding: 100px;
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        margin: 100 px;
+    }
+    #home_html{
+        background-color:#009b9c;
+        padding: 100px;
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        margin: 100 px;
+    }
+    #home_css{
+        background-color:#0046b8;
+        padding: 100px;
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        margin: 100 px;
+    }
+    #home_git{
+        background-color:#4c4c4c;
+        padding: 100px;
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        margin: 100 px;
+    }
