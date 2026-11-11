@@ -20,6 +20,7 @@
 /* Estilos del nav*/
     nav{
         background-color: #E0E0E0;
+        padding: 15px 30vw;
     }
     nav a{
         text-decoration: none;
@@ -30,7 +31,17 @@
         list-style-type: none;
         margin: 0;
     }
+    nav li{
+        display: inline-block;
+        margin-left: 7vh;
+    }
 /* Estilos del main*/
+    main{
+        padding: 25px 25px;
+        width: 45vw;
+        margin: 15px auto;
+        box-shadow: 3px 3px 20px 3px gray;
+    }
     main h2, main h3{
             color: #023059;
         }
