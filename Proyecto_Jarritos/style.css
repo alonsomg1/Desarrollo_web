@@ -1,0 +1,26 @@
+/*Estilos del header-nav*/
+header{
+    display: flex;
+    background-color: #00712D;
+    justify-content: center;
+}
+header nav
+
+header nav ul{
+    background-color: #00712D;
+    width: 60vw;
+    color: #F8EA3A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-small;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav a{
+    text-decoration: none;
+}
+header nav a:visited{
+    text-decoration: none;
+    color: #F8EA3A;
+}
