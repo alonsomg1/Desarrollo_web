@@ -66,25 +66,65 @@ header nav a:hover{
     justify-content: center;
 }
     #banner2_1{
-        display: inline-block;
         display: flex;
-        align-content: center;
-    }
+        flex-direction: column;
+        justify-content: center;
+    }    
         #si_mex{
             color: #02732A;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: x-larger;
+            font-size: 30px;
             text-align: center;
+            margin: 0;
         }
         #seria{
             color: #02732A;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: xx-larger;
+            font-size: 40px;
             text-align: center;
+            margin: 0;
         }
     #banner2_2{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
     }
     #banner2_2 img{
         width: 15vw;
     }
+/*Estilos del banner con comida*/
+#banner3{
+    background-image: linear-gradient(to bottom, #158B28, #8DC32E);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#banner3_1{
+    width: 40vw;
+    display: flexbox;
+    justify-content: center;
+}
+#banner3_1_1 span{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+#banner3_1_2 span{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+}
+#banner3_1_3{
+    display: flex;
+    justify-content: center;
+}
+#banner3_1_3 img{
+    width: 10vw;
+}
+#banner3_1_4 input{
+    background-color: #D96B43;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
