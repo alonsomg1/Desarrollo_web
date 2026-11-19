@@ -95,6 +95,7 @@ header nav a:hover{
 #banner3{
     background-image: linear-gradient(to bottom, #158B28, #8DC32E);
     margin: 0;
+    padding: 0; 
     display: flex;
     justify-content: center;
 }
@@ -102,6 +103,8 @@ header nav a:hover{
     width: 40vw;
     display: flexbox;
     justify-content: center;
+    background-image: linear-gradient(to bottom, #08732A, #5D992B);
+    margin: 0px 5px 0px;
 }
 #banner3_1_1 span{
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -127,4 +130,7 @@ header nav a:hover{
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
+}
+#banner3_2{
+    width: auto;
 }
