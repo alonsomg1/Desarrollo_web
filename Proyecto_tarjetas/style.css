@@ -1,0 +1,51 @@
+/* Estilos del Proyecto tarjetas*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Estilos del nav*/
+nav{
+    background-color: #33322F;
+    padding: 15px 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
+nav a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #828567;
+    font-weight: bold;
+}
+
+/*Estilos de la section "introduccion"*/
+#introduccion{
+    text-align: center;
+    padding: 0% 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#introduccion h2{
+    color: #2A2927;
+    font-size: 30px;
+}
+#introduccion p{
+    color: #595044;
+}
+
+/*Estilos de la section "sitios"*/
+#sitios{
+    background-color: #828567;
+    padding: 10px 30px;
+}
+#sitios h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2A2927;
+}
+
+/*Estilos del div "tarjetas"*/
+#tarjetas{
+    display: grid;
+
+}
