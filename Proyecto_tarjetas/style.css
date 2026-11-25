@@ -47,5 +47,25 @@ nav a:hover{
 /*Estilos del div "tarjetas"*/
 #tarjetas{
     display: grid;
-
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.polaroid{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px 0px;
+    text-align: center;
+}
+.polaroid img{
+    width: 100%;
+}
+.txt_polaroid p{
+    font-size: 30px;
+    font-weight: bold;
+    border-color: black;
+    border-style: dashed;
 }
