@@ -78,8 +78,9 @@ nav a:hover{
     text-decoration: none;
     color: black;
 }
-#tarjetas a :hover{
-    background-color: #2A2927;
-    color: #b6b8a3;
-    transform: scale(1.05);|
+#tarjetas a:hover{
+    /*background-color: #2A2927;*/
+    /*color: #b6b8a3;*/
+    scale(2);
+    rotate: 20deg;
 }
